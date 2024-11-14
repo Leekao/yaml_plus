@@ -1,0 +1,9 @@
+name: "yaml_plus"
+version: "0.1.0"
+usage: "Automatically merge yaml+ values files"
+description: "A Helm plugin that merges values files using yaml+"
+command: "bun autoMergeYamls.js"
+
+hooks:
+  pre-install: "/Users/erez/.bun/bin/bun mergeYamls.js"
+  pre-upgrade: "/Users/erez/.bun/bin/bun mergeYamls.js"
