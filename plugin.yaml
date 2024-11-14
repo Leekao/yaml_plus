@@ -5,5 +5,5 @@ description: "A Helm plugin that merges values files using yaml+"
 command: "bun autoMergeYamls.js"
 
 hooks:
-  pre-install: "/Users/erez/.bun/bin/bun mergeYamls.js"
-  pre-upgrade: "/Users/erez/.bun/bin/bun mergeYamls.js"
+  pre-install: "./mergeYamls"
+  pre-upgrade: "./mergeYamls"

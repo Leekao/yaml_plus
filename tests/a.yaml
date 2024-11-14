@@ -1,0 +1,7 @@
+somekey:
+  somefield: 1
+  anotherfield: 2
+  arrayfield:
+    - value
+    - value2
+    - value3

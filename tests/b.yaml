@@ -1,0 +1,4 @@
+somekey+:
+  fieldfromanotherstory: 1
+  arrayfield+:
+    - value4
