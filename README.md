@@ -22,7 +22,7 @@ service_name:
     - value for dev & prod
     - value only for prod  
 ```
-Wouldn't it be easier if the prod-values.yaml didn't need to duplicate the long list of other attributes? 
+Wouldn't it be easier if the `prod-values.yaml` didn't need to duplicate the long list of other attributes? 
 With Yaml+ `prod-values.yaml` looks like this:
 ```
 service_name+:
